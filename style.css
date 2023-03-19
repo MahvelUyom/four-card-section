@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.top{
+    text-align: center;
+    margin-top: 3rem;
+}
+h2{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.top p{
+    margin-top: 2rem;
+    color: grey;
+}
+.card-body{
+    margin:10rem 2rem;
+}
+.card-flex{
+    display: flex;
+}
+.mid-card{
+    display: block;
+    margin-top: -8rem;
+}
+.mid-card .card{
+    height: 15rem;
+}
+.card{
+    height: 15rem;
+    margin: .8rem;
+    /* padding:0 2rem; */
+    box-shadow: 2px 2px 20px rgb(211, 206, 206);
+    border-radius: 6px;
+}
+.card img{
+    float: right;
+    width: 3rem;
+    margin: 1rem;
+}
+.card h3, .card p{
+    margin: 1rem;
+}
+.red{
+    background: red;
+    width: 100%;
+    height: .3rem;
+    border-radius: 5px 5px 0 0;
+}
+
+.yellow{
+    background: yellow;
+    width: 100%;
+    height: .3rem;
+    border-radius: 5px 5px 0 0;
+}
+
+.teal{
+    background:teal;
+    width: 100%;
+    height: .3rem;
+    border-radius: 5px 5px 0 0;
+}
+
+.blue{
+    background: blue;
+    width: 100%;
+    height: .3rem;
+    border-radius: 5px 5px 0 0;
+}
+
+@media (max-width:545px) {
+    .card-flex{
+        flex-direction: column;
+    }
+    .mid-card{
+        margin-top: .1rem;
+    }
+}
